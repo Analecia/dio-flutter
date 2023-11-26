@@ -105,9 +105,11 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'Quantidade de vezes que o botão foi acionado:',
-            ),
+            const Text('Quantidade de vezes que o botão foi acionado:',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 15,
+                )),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
